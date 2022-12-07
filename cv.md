@@ -29,6 +29,7 @@ I don't have any real-life experience in frontend development, but I started a c
 - My [Irregular Verbs Application](https://github.com/etrifonova/Pet-Project---Irregular-Verbs-App) (minimum of HTML и CSS; the first button (generate) works, but the second one (check) doesn't - I've been trying to fix it for quite some time now; I've tried around 4 different ways of setting the button, but all of them had a sort of bug; I need to study more to find a solution).
 - My solution for the codewars Descending Order kata:
 
+```
 function descendingOrder(n){
   let strNum = String(n);
       strNumArr = strNum.split("");
@@ -37,6 +38,7 @@ function descendingOrder(n){
       strNum = strNumArrSorted.join("");
       return parseInt(strNum);
 }
+```
 
 ## Relevant education
 - Basic JavaScript by FreeCodeCamp (online course on the FCC website + corresponding YouTube course)

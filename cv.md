@@ -1,10 +1,10 @@
 # Elena Trifonova
 
 ## Contact info:
-Email: el.al.trifonova@gmail.com
-Phone: +79196527732
-Telegram: @elena_trifonova_webdev
-Discord: Елена Трифонова#3878
+- Email: el.al.trifonova@gmail.com
+- Phone: +79196527732
+- Telegram: @elena_trifonova_webdev
+- Discord: Елена Трифонова#3878
 
 ## My goal
 I aim to get a junior frontend developer job in 2023.
@@ -37,8 +37,8 @@ My [Irregular Verbs Application] (minimum of HTML и CSS; the first button (gene
 - Self-study web development course by html.academy (as of December 2022 - almost completed module 1 of 5)
 
 ## Level of English and other languages:
-My skills in English are around C2 (a CAE certificate dd. August 2021, Grade A).
-In the summer of 2011, I worked in a restaurant in Myrtle Beach, South Carolina, USA.
-I practise English on a regular basis - I teach students at B1 and higher and I watch and read in English every day.
-I always google things I need for my programming needs in English.
-I also speak Spanish (B1) and German (A2).
+- My skills in English are around C2 (a CAE certificate dd. August 2021, Grade A).
+- In the summer of 2011, I worked in a restaurant in Myrtle Beach, South Carolina, USA.
+- I practise English on a regular basis - I teach students at B1 and higher and I watch and read in English every day.
+- I always google things I need for my programming needs in English.
+- I also speak Spanish (B1) and German (A2).

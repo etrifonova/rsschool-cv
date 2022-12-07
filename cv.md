@@ -25,8 +25,18 @@ I don't have any real-life experience in frontend development, but I started a c
 - Basic Git knowledge (I use Github Desktop and upload all my study projects and notes in my repository).
 
 ## Examples of code
-A study project at another school - a [hotel booking website] (the project is not finished and requires more CSS and JS) (https://github.com/etrifonova/sedona-htmlacademy)
-My [Irregular Verbs Application] (minimum of HTML и CSS; the first button (generate) works, but the second one (check) doesn't - I've been trying to fix it for quite some time now; I've tried around 4 different ways of setting the button, but all of them had a sort of bug; I need to study more to find a solution) (https://github.com/etrifonova/Pet-Project---Irregular-Verbs-App)
+- A study project at another school - a [hotel booking website](https://github.com/etrifonova/sedona-htmlacademy) (the project is not finished and requires more CSS and JS).
+- My [Irregular Verbs Application](https://github.com/etrifonova/Pet-Project---Irregular-Verbs-App) (minimum of HTML и CSS; the first button (generate) works, but the second one (check) doesn't - I've been trying to fix it for quite some time now; I've tried around 4 different ways of setting the button, but all of them had a sort of bug; I need to study more to find a solution).
+- My solution for the codewars Descending Order kata:
+
+function descendingOrder(n){
+  let strNum = String(n);
+      strNumArr = strNum.split("");
+      strNumArrSorted = strNumArr.sort((a,b) => a - b);
+      strNumArrSorted = strNumArrSorted.reverse();
+      strNum = strNumArrSorted.join("");
+      return parseInt(strNum);
+}
 
 ## Relevant education
 - Basic JavaScript by FreeCodeCamp (online course on the FCC website + corresponding YouTube course)

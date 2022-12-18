@@ -1,0 +1,95 @@
+/* CV colors:
+#212026 серо-черный
+#fecb00 горчично-желтый
+*/
+
+body {
+    margin: 0 auto;
+    font-family: sans-serif;
+    min-width: 900px;
+    max-width: 1200px;
+    line-height: 2em;
+
+}
+
+.page-header {
+    background-color: #fecb00;
+}
+
+.nav-list {
+    height: 100px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: inherit;
+    font-size: 1.25em;
+}
+
+.main-page {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: "avatar right-side"
+                        "left-side right-side";
+}
+
+.avatar {
+    grid-area: avatar;
+}
+
+.page-title {
+    grid-area: title;
+    vertical-align: bottom;
+    padding: 0 40px;
+}
+
+.left-side {
+    grid-area: left-side;
+    background-color: #212026;
+    color: white;
+    padding: 20px 40px;
+}
+
+.right-side {
+    grid-area: right-side;
+    padding: 0 40px;
+}
+
+.job {
+    font-size: 1.25em;
+    margin-top: -10px;
+}
+
+.divider {
+    border-bottom: 2px solid #fecb00;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.contact-info {
+    margin-bottom: 50px;
+}
+
+.page-footer {
+    background-color: #fecb00;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+
+}
+
+
+
+.github-link, .footer-year {
+    font-size: 1.25em;
+    font-weight: 700;
+}

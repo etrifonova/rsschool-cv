@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/x-icon" href="./assets/img/favicon.png">
+    <title>CV Elena Trifonova</title>
+</head>
+<body>
+    <header class="page-header">
+        <nav class="navigation">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="#contact-info">Contact info</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about">About me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#strengths">My strengths</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#code-example">Examples of code</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#languages">Languages</a>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+    <main class="main-page">
+        <img class="avatar" src="./assets/img/cv-photo.jpg" alt="elena-trifonova-photo" width="400" height="486">
+
+    <div class="right-side">
+        <h1>Elena Trifonova</h1>
+        <p class="job">Front-End Developer</p>
+        <section class="about">
+            <h2 id="about">About me</h2>
+            <p class="about-text">My major is linguistics and translation, as well as teaching foreign languages. The world of web technology has always been exciting for me 
+            and one day I decided that I want to contribute to it, which is why I started learning web development. As for my interests, I like bar quizzes, 
+              playing the guitar and singing, board games and doing sport. Now I'm aiming to get a junior frontend developer job in 2023.</p>
+         </section>
+
+         <section class="strengths">
+            <h2 id="strengths">My strengths</h2>
+            <ul class="strengths-list">
+                <li class="strengths-item">I'm passionate about studying and learning new things and I love complex tasks.</li>
+                <li class="strengths-item">Vast experience in working remotely - I worked as a freelance translator from 2012 to 2019 and now I teach online working from home.</li>
+                <li class="strengths-item">Experience in "tech stuff" - my major is linguistics & translation and I specialized in technical translation, including dealing with manuals and interpreting at construction works, assembly works and trial runs, and I'm not afraid of technical stuff.</li>
+                <li class="strengths-item">Great googling skills - I had to google a lot in my previous job as a translator and most of the time it wasn't easy to find a certain term straight away, but I figured out a way to achieve that.</li>
+            </ul>
+        </section>
+
+        <section class="experience">
+            <h2 id="experience">Experience</h2>
+            <p class="experience-text">I don't have any real-life experience in frontend development, but I started a couple of pet projects including a website for my friend, who is the owner of an optical shop, and an application for checking users' knowledge of irregular verbs, which are quite important in English. I enjoy building web pages, especially introducing some JavaScript in them.</p>
+        </section>
+
+        <section class="skills">
+            <h2 id="skills">Skills</h2>
+            <ul class="skills-list">
+                <li class="skills-item">HTML5</li>
+                <li class="skills-item">CSS3</li>
+                <li class="skills-item">JavaScript (basics)</li>
+                <li class="skills-item">Basic Git knowledge</li>
+                <li class="skills-item">Figma</li>
+            </ul>
+        </section>
+
+        <section class="code-example">
+            <h2 id="code-example">Examples of code</h2>
+            <details class="code-details">
+                <summary class="code-summary">My solution for the codewars Descending Order kata:</summary>
+                <pre>
+                    <code>
+                        function descendingOrder(n){
+                            let strNum = String(n);
+                                strNumArr = strNum.split("");
+                                strNumArrSorted = strNumArr.sort((a,b) => a - b);
+                                strNumArrSorted = strNumArrSorted.reverse();
+                                strNum = strNumArrSorted.join("");
+                                return parseInt(strNum);
+                          }
+                    </code>
+                  </pre>
+            </details>
+        </section>
+
+        <section class="languages">
+            <h2 id="languages">Languages</h2>
+            <ul class="languages-list">
+                <li class="languages-item">English: C1/C2 (CAE certificate dd. August 2021)</li>
+                <li class="languages-item">Russian: native</li>
+                <li class="languages-item">Spanish: B1</li>
+                <li class="languages-item">German: A2</li>
+            </ul>
+        </section>
+    </div>
+
+    <div class="left-side">
+        <section class="contact-info">
+            <h2 id="contact-info">Contact info</h2>
+            <div class="divider"></div>
+            <ul class="contact-list">
+                <li class="contact-item">Email: el.al.trifonova@gmail.com</li>
+                <li class="contact-item">Phone: +79196527732</li>
+                <li class="contact-item">Telegram: @elena_trifonova_webdev</li>
+                <li class="contact-item">Discord: Elena Trifonova#3878</li>
+            </ul>
+        </section>
+
+        <section class="education">
+            <h2 id="education">Education</h2>
+            <div class="divider"></div>
+            <ul class="education-list">
+                <li class="education-item">Basic JavaScript by FreeCodeCamp (online course on the FCC website + corresponding YouTube course)</li>
+                <li class="education-item">Learn HTML – Full Tutorial for Beginners (2022) by FreeCodeCamp (YouTube course)</li>
+                <li class="education-item">Responsive Web Design by FreeCodeCamp (online course on the FCC website)</li>
+                <li class="education-item">Web development challenge by html.academy</li>
+                <li class="education-item">Layout 2.0 marathon (HTML, CSS) by html.academy</li>
+                <li class="education-item">Self-study web development course by html.academy (as of December 2022 - almost completed module 1 of 5)</li>
+            </ul>
+        </section>
+    </div>
+    </main>
+
+    <footer class="page-footer">
+        <!-- в footer есть ссылка на гитхаб автора работы, год создания приложения, логотип курса со ссылкой на курс +10 -->
+        <a class="github-link" href="https://github.com/etrifonova">My Github</a>
+
+        <p class="footer-year">2022-2023</p>
+
+        <a class="course-link" href="https://rs.school/js/">
+            <img src="./assets/svg/rs_school_js.svg" alt="rsschool-logo" width="120" height="45">
+        </a>
+    </footer>
+</body>
+</html>

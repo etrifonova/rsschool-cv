@@ -4,7 +4,7 @@
 - Email: el.al.trifonova@gmail.com
 - Phone: +79196527732
 - Telegram: @elena_trifonova_webdev
-- Discord: Елена Трифонова#3878
+- Discord: Elena Trifonova#3878
 
 ## My goal
 I aim to get a junior frontend developer job in 2023.

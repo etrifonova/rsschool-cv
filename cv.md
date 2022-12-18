@@ -10,10 +10,10 @@
 I aim to get a junior frontend developer job in 2023.
 
 ## My strengths:
-- I'm passionate about studying and learning new things and I love complex tasks;
-- vast experience in working remotely - I worked as a freelance translator from 2012 to 2019 and now I teach online working from home;
-- experience in "tech stuff" - my major is linguistics & translation and I specialized in technical translation, including dealing with manuals and interpreting at construction works, assembly works and trial runs, and I'm not afraid of technical stuff;
-- great googling skills - I had to google a lot in my previous job as a translator and most of the time it wasn't easy to find a certain term straight away, but I figured out a way to achieve that.
+- I'm passionate about studying and learning new things and I love complex tasks.
+- Vast experience in working remotely - I worked as a freelance translator from 2012 to 2019 and now I teach online working from home.
+- Experience in "tech stuff" - my major is linguistics & translation and I specialized in technical translation, including dealing with manuals and interpreting at construction works, assembly works and trial runs, and I'm not afraid of technical stuff.
+- Great googling skills - I had to google a lot in my previous job as a translator and most of the time it wasn't easy to find a certain term straight away, but I figured out a way to achieve that.
 
 ## Experience:
 I don't have any real-life experience in frontend development, but I started a couple of pet projects including a website for my friend, who is the owner of an optical shop, and an application for checking users' knowledge of irregular verbs, which are quite important in English. I enjoy building web pages, especially introducing some JavaScript in them.
